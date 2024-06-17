@@ -7,19 +7,19 @@ Even Days:
 A = 501, B = 502, C = 503, ..., Z = 526
 For example, the message "Attack submarine near Karachi" would be encoded differently depending on the date:
 
-Odd Day Encoding:
+# Odd Day Encoding:
 Attack submarine near Karachi becomes 01 20 20 01 03 11 19 21 02 01 18 01 14 05 14 05 01 18 11 01 18 01 03 08 09
-Even Day Encoding:
+# Even Day Encoding:
 Attack submarine near Karachi becomes 501 520 520 501 503 511 519 521 502 501 518 501 514 505 514 505 501 518 511 501 518 501 503 508 509
 Spaces and non-alphabetic characters are preserved.
 
-Prerequisites
+# Prerequisites
 Python 3.x
 Django
 
 # Installation
 # Clone the repository:
-git clone https://github.com/yourusername/indian-army-message-encoder.git
+git clone https://github.com/sarth360/indian-army-message-encoder.git
 cd indian-army-message-encoder
 
 # Create a virtual environment and activate it:
