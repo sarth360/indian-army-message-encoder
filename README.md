@@ -20,7 +20,6 @@ Django
 # Installation
 # Clone the repository:
 git clone https://github.com/sarth360/indian-army-message-encoder.git
-cd indian-army-message-encoder
 
 # Create a virtual environment and activate it:
 python -m venv env
@@ -32,8 +31,13 @@ pip install -r requirements.txt
 python manage.py runserver
 
 # Usage
-Open your web browser and navigate to http://127.0.0.1:8000.
-Enter the message you want to encode.
-The application will automatically determine the current date and encode the message based on the rules for odd or even days.
+To encode a message:
+
+Navigate to the home page (http://127.0.0.1:8000/app1/).
+Enter your message in the provided form and click "Encode".
+View the encoded message on the success page (http://127.0.0.1:8000/app1/success/).
+
+To view encoded messages:
+Visit the success page (http://127.0.0.1:8000/app1/success/) to see all previously encoded messages along with their original texts.
 
 
