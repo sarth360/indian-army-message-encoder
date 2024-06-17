@@ -15,7 +15,7 @@ Spaces and non-alphabetic characters are preserved.
 
 # Prerequisites
 Python 3.x
-Django
+Django 3.x
 
 # Installation
 # Clone the repository:
